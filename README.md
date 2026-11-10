@@ -16,7 +16,7 @@ A comprehensive reference guide for developers using **Claude Code** with offici
 | **StepFun** | Direct | Step-3.5-Flash, Step-3 | Step Plan (from $6.99/mo) |
 | **SiliconFlow** | Gateway | Hosted DeepSeek, GLM, Qwen, Kimi | — |
 | **OpenRouter** | Gateway | 200+ models from all providers | — |
-| **RouterPlex** | Gateway | DeepSeek V4, Kimi K3, GLM-5.3, Qwen 3.8, MiniMax-M3 and Claude, GPT, Gemini (64 models) | — (prepaid, per token) |
+| **RouterPlex** | Gateway | DeepSeek V4, Kimi K3, GLM-5.3, Qwen 3.8, MiniMax-M3 and Claude, GPT, Gemini (72 models) | — (prepaid, per token) |
 | **Ollama** | Local / Cloud | Open-source models, free | Free (local) |
 
 ---
@@ -310,8 +310,8 @@ The base URL has no `/v1`; Claude Code adds `/v1/messages`. Set all four model v
 
 | Family | Model ID | Price | `CLAUDE_CODE_MAX_CONTEXT_TOKENS` |
 | :--- | :--- | :--- | :--- |
-| DeepSeek | `deepseek-v4-pro` | $0.435 / $0.87 | 616000 |
-| DeepSeek | `deepseek-v4-flash` | $0.09 / $0.18 | 616000 |
+| DeepSeek | `deepseek-v4-pro` | $0.80 / $2.39 | 616000 |
+| DeepSeek | `deepseek-v4-flash` | $0.18 / $0.73 | 616000 |
 | Kimi | `kimi-k3` | $3 / $15 | 917504 |
 | GLM | `glm-5.3` | $1.40 / $4.40 | 868928 |
 | GLM | `glm-5.3-flash` | $0.15 / $0.50 | 868928 |
